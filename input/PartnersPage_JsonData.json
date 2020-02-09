@@ -1,0 +1,86 @@
+{
+  "root": [
+    {
+      "Store_One": {
+        "Store_One_Name": "A_AppiumStore_1",
+        "Store_One_Primary_Cashback_Value": "100%",
+        "Store_One_Primary_Cashback_Details": "Normal Primary Cashback Percent Details for A_AppiumStore_1",
+        "Store_One_Secondary_Cashback_Value": "100%",
+        "Store_One_Secondary_Cashback_Details": "Normal Secondary Cashback Percent Details for A_AppiumStore_1"
+      }
+    },
+    {
+      "Store_Two": {
+        "Store_Two_Name": "A_AppiumStore_2",
+        "Store_Two_Primary_Cashback_Value": "200",
+        "Store_Two_Primary_Cashback_Details": "Normal Primary Cashback Currency Details for A_AppiumStore_2",
+        "Store_Two_Secondary_Cashback_Value": "200",
+        "Store_Two_Secondary_Cashback_Details": "Normal Secondary Cashback Currency Details for A_AppiumStore_2"
+      }
+    },
+    {
+      "Store_Three": {
+        "Store_Three_Name": "A_AppiumStore_3",
+        "Store_Three_Primary_Cashback_Value": "300%",
+        "Store_Three_Primary_Cashback_Details": "Calendar Primary Cashback Percent Details for A_AppiumStore_3",
+        "Store_Three_Secondary_Cashback_Value": "300%",
+        "Store_Three_Secondary_Cashback_Details": "Calendar Secondary Cashback Percent Details for A_AppiumStore_3"
+      }
+    },
+    {
+      "Store_Four": {
+        "Store_Four_Name": "A_AppiumStore_4",
+        "Store_Four_Primary_Cashback_Value": "400",
+        "Store_Four_Primary_Cashback_Details": "Calendar Primary Cashback Currency Details for A_AppiumStore_4",
+        "Store_Four_Secondary_Cashback_Value": "400",
+        "Store_Four_Secondary_Cashback_Details": "Calendar Secondary Cashback Currency Details for A_AppiumStore_4"
+      }
+    },
+    {
+      "Store_Five": {
+        "Store_Five_Name": "A_AppiumStore_5",
+        "Store_Five_Primary_Cashback_Value": "500%",
+        "Store_Five_Primary_Cashback_Details": "Normal Primary Cashback Percent Details for A_AppiumStore_5",
+        "Store_Five_Secondary_Cashback_Value": "500%",
+        "Store_Five_Secondary_Cashback_Details": "Normal Secondary Cashback Percent Details Three for A_AppiumStore_5"
+      }
+    },
+    {
+      "Store_Six": {
+        "Store_Six_Name": "A_AppiumStore_6",
+        "Store_Six_Primary_Cashback_Value": "600",
+        "Store_Six_Primary_Cashback_Details": "Calendar Primary Cashback Currency Details for A_AppiumStore_6",
+        "Store_Six_Secondary_Cashback_Value": "600",
+        "Store_Six_Secondary_Cashback_Details": "Calendar Secondary Cashback Currency Details Three for A_AppiumStore_6"
+      }
+    },
+    {
+      "Store_Seven": {
+        "Store_Seven_Name": "A_AppiumStore_7",
+        "Store_Seven_Primary_Cashback_Value": "700%",
+        "Store_Seven_Primary_Cashback_Details": "Normal Primary Cashback Percent Details for A_AppiumStore_7",
+        "Store_Seven_Secondary_Cashback_Value": "750%",
+        "Store_Seven_Secondary_Cashback_Details": "Normal Secondary Cashback Percent Details for A_AppiumStore_7"
+      }
+    },
+    {
+      "Store_Eight": {
+        "Store_Eight_Name": "A_AppiumStore_8",
+        "Store_Eight_Primary_Cashback_Value": "800%",
+        "Store_Eight_Primary_Cashback_Details": "Calendar Primary Cashback Percent Details for A_AppiumStore_8",
+        "Store_Eight_Secondary_Cashback_Value": "850%",
+        "Store_Eight_Secondary_Cashback_Details": "Calendar Secondary Cashback Percent Details for A_AppiumStore_8"
+      }
+    },
+    {
+      "Store_Nine": {
+        "Store_Nine_Name": "A_AppiumStore_9"
+      }
+    },
+    {
+      "Store_Ten": {
+        "Store_Ten_Name": "A_AppiumStore_10"
+      }
+    }
+  ]
+}

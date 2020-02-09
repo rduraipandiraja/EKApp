@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="com.app.ck.base.TestListner" />
+	</listeners>
+ 
+	<test thread-count="1" name="Join" parallel = "methods">
+	
+	<parameter name = "udid" value ="V027751606600052993 "/>
+	<parameter name = "port" value ="4723"/>
+		<classes>
+			<class name="com.ck.test.CKTestStoreValidation"> </class>
+			<!-- <class name="com.ck.test.CKTestLogin"></class> -->
+		</classes>
+	</test>    
+	
+	<!-- 
+	<test thread-count="1" name="TestDevillc1" parallel = "methods">
+	
+	<parameter name = "udid" value ="10.0.0.20:5585"/>
+	<parameter name = "port" value ="5000"/>
+		<classes>
+			<class name="com.ck.test.CKTestStoreValidation"> </class>
+			<class name="com.ck.test.CKTestLogin"></class>
+		</classes>
+	</test>    
+
+<test thread-count="1" name="TestDevic1" parallel = "methods">
+	
+	<parameter name = "udid" value ="10.0.0.19:5555"/>
+	<parameter name = "port" value ="5001"/>
+		<classes>
+			<class name="com.ck.test.CKTestStoreValidation"> </class>
+			<class name="com.ck.test.CKTestLogin"></class>
+		</classes>
+	</test>     -->
+	
+</suite> <!-- Suite -->

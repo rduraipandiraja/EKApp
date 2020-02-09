@@ -1,0 +1,680 @@
+<testdata>
+	<Framework>
+
+		<Signin_TestData_0>
+			<TC001_EarnKaroUserName>Earnkaro</TC001_EarnKaroUserName>
+			<TC001_ValidLoginEmail>cktest@gmail.com</TC001_ValidLoginEmail>
+			<TC001_ValidLoginPassword>ppounds</TC001_ValidLoginPassword>
+			<TC001_InValidLoginEmail>Your Email</TC001_InValidLoginEmail>
+			<TC001_InValidLoginEmail_2>Please enter the Email ID
+			</TC001_InValidLoginEmail_2>
+			<TC001_InValidLoginPassword>Your Password
+			</TC001_InValidLoginPassword>
+			<TC001_InValidLoginPassword_2>Please enter the Password
+			</TC001_InValidLoginPassword_2>
+			<TC001_InValidLoginUserEmail>easyAppium@app.com
+			
+			</TC001_InValidLoginUserEmail>
+			<TC001_InValidPassword>@abc123#</TC001_InValidPassword>
+			<TC001_ErrorMsgAuthenticationFailed>Authentication Failed
+			</TC001_ErrorMsgAuthenticationFailed>
+			<TC001_LessLengthPassword>pp</TC001_LessLengthPassword>
+			<TC001_InvalidNumeric>258258</TC001_InvalidNumeric>
+			<TC001_UserName>cktestgmailcom</TC001_UserName>
+			<TC001_AntotherUser>cktest@gmail.com</TC001_AntotherUser>
+			<API>application/vnd.api+json</API>
+		</Signin_TestData_0>
+
+		<Signin_TestDataForFB_1>
+
+			<TC001_ValidFBEmail>dev@pouringpounds.com</TC001_ValidFBEmail>
+			<TC001_ValidFBPassword>4NRqdDdJ$yLQFc</TC001_ValidFBPassword>
+
+			<FBTestUserEmail2>aswinqaanalyst_ugjdtgo_aswinqaanalyst@tfbnw.net
+			</FBTestUserEmail2>
+			<FBTestUserPwd2>ppounds</FBTestUserPwd2>
+
+			<!-- Following are the New BETA Face book SignUp user - Please use the 
+				Following Different users Id to avoid conflict failure during the Execution -->
+			<!-- System 1 : Mallik; mallikqaengineer_domlocp_mallikqaengineer@tfbnw.net -->
+			<!-- System 2 : Aswin ; aswinqaanalyst_ugjdtgo_aswinqaanalyst@tfbnw.net -->
+
+			<!-- Following are the New STAGING Face book SignUp user - Please use 
+				the Following Different users Id to avoid conflict failure during the Execution -->
+			<!-- System 1 : Mallik; malikqateam_akueblp_malikqateam@tfbnw.net -->
+			<!-- System 2 : Aswin ; ircslcvvma_1559123465@tfbnw.net -->
+
+		</Signin_TestDataForFB_1>
+
+
+
+		<SearchPage_Data_2>
+
+			<Searchstore>off</Searchstore>
+
+		</SearchPage_Data_2>
+
+		<JoinFree_3>
+
+			<UserFullName>EarnkaroAppiumTest</UserFullName>
+			<Password>ppounds</Password>
+
+		</JoinFree_3>
+
+		<StoreData_4>
+
+			<RupeesSymbol>₹</RupeesSymbol>
+			<RupeesSymbol>?</RupeesSymbol>
+			<PrimaryCashbackExpiryTag>Expires in 3 days
+			</PrimaryCashbackExpiryTag>
+			<SecondaryCashbackExpiryTag>Expires in 3 days
+			</SecondaryCashbackExpiryTag>
+			<StoreOneVoucherCount>2</StoreOneVoucherCount>
+			<StoreTwoVoucherCount>2</StoreTwoVoucherCount>
+			<StoreThreeVoucherCount>1</StoreThreeVoucherCount>
+			<EleventhStoreVoucherTitle_One>Voucher :One
+			</EleventhStoreVoucherTitle_One>
+			<EleventhStoreVoucherTitle_Two>Voucher :Two
+			</EleventhStoreVoucherTitle_Two>
+			<EleventhStoreVoucherTitle_Three>Voucher :Three
+			</EleventhStoreVoucherTitle_Three>
+			<EleventhStoreVoucherTitle_Four>Voucher :Four
+			</EleventhStoreVoucherTitle_Four>
+			<EleventhStoreVoucherTitle_Five>Voucher :Five
+			</EleventhStoreVoucherTitle_Five>
+			<EleventhStoreVoucherTitle_Six>Voucher :Six
+			</EleventhStoreVoucherTitle_Six>
+			<EleventhStoreVoucherTitle_Seven>Voucher :Seven
+			</EleventhStoreVoucherTitle_Seven>
+			<ExpiryTagInHours>Hours</ExpiryTagInHours>
+			<ExpiryTagInMinutes>Minutes</ExpiryTagInMinutes>
+			<ExpiryTagInSeconds>Seconds</ExpiryTagInSeconds>
+			<StoreURL>https://www.myntra.com/</StoreURL>
+			<EarningsURL>myntra.com/</EarningsURL>
+
+		</StoreData_4>
+
+		<ReferralUser_5>
+			<deepLinkURL>https://cashkaro.iamsavings.co.uk/deeplink.php
+			</deepLinkURL>
+			<ReferralUserEmail>17_mail@pp.com</ReferralUserEmail>
+			<ReferralUserPassword>ppounds</ReferralUserPassword>
+			<ReferralUserStatus>Active</ReferralUserStatus>
+			<exitIdGenrationCashbackStore>PPS ATM CASHBACK STORE FOR EXIT ID
+				GENERATION
+			</exitIdGenrationCashbackStore>
+			<bonusStore>Bonus</bonusStore>
+			<signUpBonusStore>SIGN-up Bonus</signUpBonusStore>
+			<exitIdGenrationCashbackStoreShortDesc>APP CASHBACK STORE FOR EXIT ID
+				GENERATION
+			</exitIdGenrationCashbackStoreShortDesc>
+			<exitIdGenrationRewardsStore>PPS ATM REWARDS STORE FOR EXIT ID
+				GENERATION
+			</exitIdGenrationRewardsStore>
+			<exitIdGenrationRewardsStoreShortDesc>APP REWARDS STORE FOR EXIT ID
+				GENERATION
+			</exitIdGenrationRewardsStoreShortDesc>
+		</ReferralUser_5>
+
+
+		<Payment_6>
+			<TwoFifty>250.00</TwoFifty>
+			<Zero>0.00</Zero>
+			<Ten>10.00</Ten>
+			<TwoForty>240.00</TwoForty>
+			<TwoFortyNinePointNine>249.99</TwoFortyNinePointNine>
+			<TwoFiftyNinePointNine>259.99</TwoFiftyNinePointNine>
+			<FiveHundred>500.99</FiveHundred>
+
+			<NEFTAccountHolderName>CashKaroUser</NEFTAccountHolderName>
+			<NEFTBankName>PouringPounds</NEFTBankName>
+			<NEFTBranchName>CashKaroBranch</NEFTBranchName>
+			<NEFTAccountNumber>123456789</NEFTAccountNumber>
+			<NEFTAccountIFSC>CORP0001206</NEFTAccountIFSC>
+			<AmazonGCEmail>cktest@test.com</AmazonGCEmail>
+			<CharityExceedAmount>525.00</CharityExceedAmount>
+			<MultipleZeroCharityAmount>000000000.00</MultipleZeroCharityAmount>
+
+			<AmazonGiftCardErrorScenario_1>@g.com</AmazonGiftCardErrorScenario_1>
+			<AmazonGiftCardErrorScenario_2>s@gcom</AmazonGiftCardErrorScenario_2>
+			<AmazonGiftCardErrorScenario_3>s@.com</AmazonGiftCardErrorScenario_3>
+			<AmazonGiftCardErrorScenario_4>*%!.,</AmazonGiftCardErrorScenario_4>
+			<AmazonGiftCardErrorScenario_5>123456</AmazonGiftCardErrorScenario_5>
+			<AmazonGiftCardErrorScenario_6>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafffffffffffffd@gmail.com
+			</AmazonGiftCardErrorScenario_6>
+			<AmazonGiftCardErrorScenario_7>458@456.789
+			</AmazonGiftCardErrorScenario_7>
+
+			<InvalidOTP>858525</InvalidOTP>
+
+		</Payment_6>
+
+		<Others_7>
+
+			<Cashback>Cashback</Cashback>
+			<Rewards>Rewards</Rewards>
+			<startURL>https://www.</startURL>
+			<startBannertitle>PPS ATM APP SPECIFIC SUBCATEGORY ONE Offer (
+			</startBannertitle>
+			<endBannertitle>)</endBannertitle>
+			<endURL>/</endURL>
+			<hamburgerSymbol></hamburgerSymbol>
+			<myEarningsInfo></myEarningsInfo>
+			<raiseTicketCashback>Missing a Cashback?</raiseTicketCashback>
+			<raiseTicketCashback2>RAISE TICKET</raiseTicketCashback2>
+			<raiseTicketRewards>Missing a Reward?</raiseTicketRewards>
+			<raiseTicketRewards2>RAISE TICKET</raiseTicketRewards2>
+			<RupeesSymbol>₹</RupeesSymbol>
+			<FiftyCharEmail>fsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfff@gmail.com
+			</FiftyCharEmail>
+			<FiftyPlusUserChar>fsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfff
+			</FiftyPlusUserChar>
+			<FiftyUserChar>abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwx
+			</FiftyUserChar>
+			<FiftyUserCharWithSpace>abcdefghijklmnopqrstuvwxyz
+				abcdefghijklmnopqrstuvwx
+			</FiftyUserCharWithSpace>
+			<oneUserChar>c
+			</oneUserChar>
+
+			<Adda52>Adda52 </Adda52>
+
+			<FiveThousand>5000 </FiveThousand>
+			<Twenty>20 </Twenty>
+			<Ten>10 </Ten>
+
+			<NormalPrimaryCashbackDetails>Normal Primary Cashback Details
+			</NormalPrimaryCashbackDetails>
+			<CalendarPrimaryCashbackDetails>Calendar Primary Cashback Details
+			</CalendarPrimaryCashbackDetails>
+
+			<NormalSecondaryCashbackDetails>Normal Secondary Cashback Details
+			</NormalSecondaryCashbackDetails>
+			<CalendarSecondaryCashbackDetails>Calendar Secondary Cashback Details
+			</CalendarSecondaryCashbackDetails>
+
+			<ExclusiveRate>Exclusive Rate </ExclusiveRate>
+
+			<HowtoShareLinksandEarn>How to make profit links in Earnkaro?
+			</HowtoShareLinksandEarn>
+			<WhatIsEarnKaroPendingProfit>What Is Pending Profit, What Is Minimum
+				Payout In Earnkaro
+			</WhatIsEarnKaroPendingProfit>
+			<HowToBecomeFlipkartLinks>How To Become A Flipkart Affiliate
+			</HowToBecomeFlipkartLinks>
+			<HowToBecomeMyntraLinks>How To Become A Myntra Affiliate
+			</HowToBecomeMyntraLinks>
+			<HowToBecomeAmzonLinks>How To Become An Amazon Affiliate
+			</HowToBecomeAmzonLinks>
+			<HowToBecomeAjioLinks>How To Become AJIO Affiliate
+			</HowToBecomeAjioLinks>
+			<Normal>Normal
+			</Normal>
+			<Shared>Shared
+			</Shared>
+
+			<mobileNumber>5555555555
+			</mobileNumber>
+
+			<shortenURL>https://ekaro.in/
+			</shortenURL>
+
+		</Others_7>
+
+		<AdminCredentials_8>
+
+			<AdminUserName>dev</AdminUserName>
+			<AdminPassword>ppbeta3D</AdminPassword>
+			<!-- <AdminPassword>ppstaging3D</AdminPassword> -->
+
+		</AdminCredentials_8>
+
+
+		<Count_9>
+
+			<CountOne>1</CountOne>
+			<CountThree>3</CountThree>
+			<CountSix>6</CountSix>
+			<CountSeven>7</CountSeven>
+
+		</Count_9>
+
+
+		<MissingCashback_10>
+
+			<TransactionId>123456</TransactionId>
+			<TransacationAmountPaid>666.00</TransacationAmountPaid>
+			<CouponCodeUsed>APPIUM333</CouponCodeUsed>
+			<TransactionDetails>This is Appium EXECUTES Your Mobile APP
+			</TransactionDetails>
+			<ReceivedStatus>Received</ReceivedStatus>
+			<SentToRetailerStatus>Sent to retailer</SentToRetailerStatus>
+			<ResolvedStatus>Resolved</ResolvedStatus>
+			<AdminReply>This Appium Test Reply From CKBeta Admin</AdminReply>
+			<UserReply>This is User Reply</UserReply>
+			<SorryText>Sorry, we don’t see any clicks from your account on this
+				date. Please select a valid date of transaction or you can reach us
+				at dev@pouringpounds.com
+			</SorryText>
+
+		</MissingCashback_10>
+
+
+		<MyEarnings_11>
+
+			<TwoFiftyZeroZero>250.00</TwoFiftyZeroZero>
+			<Zero>0.00</Zero>
+			<TwoFive>25.00</TwoFive>
+			<OneZeroZeroZero>1000.00</OneZeroZeroZero>
+			<Thousand>1000</Thousand>
+			<FiveHundered>500</FiveHundered>
+			<TwoFifty>250</TwoFifty>
+			<Cashback>Cashback</Cashback>
+			<Rewards>Rewards</Rewards>
+			<Pending>Pending</Pending>
+			<Cancelled>Cancelled</Cancelled>
+			<Confirmed>Confirmed</Confirmed>
+			<Requested>Requested</Requested>
+			<Paid>Paid</Paid>
+			<EightHundered>800</EightHundered>
+
+		</MyEarnings_11>
+
+		<Testimonial_12>
+
+			<OneStarFeedback>ONE STAR FEEDBACK</OneStarFeedback>
+			<TwoStarFeedback>TWO STAR FEEDBACK</TwoStarFeedback>
+			<ThreeStarFeedback>THREE STAR FEEDBACK</ThreeStarFeedback>
+			<FourStarFeedback>FOUR STAR FEEDBACK</FourStarFeedback>
+			<FiveStarFeedback>FIVE STAR FEEDBACK</FiveStarFeedback>
+
+		</Testimonial_12>
+
+		<FAQ_13>
+
+			<HowcanIstartearning>How can I start earning?</HowcanIstartearning>
+
+			<DoIneedabankaccounttostart>Do I need a bank account to start?
+			</DoIneedabankaccounttostart>
+
+			<WhenHowdoIgetthepayment>How do I get the payment?
+			</WhenHowdoIgetthepayment>
+
+			<WhatkindofproductsareavailableonEarnKaro>What kind of products are
+				available on EarnKaro?
+			</WhatkindofproductsareavailableonEarnKaro>
+
+			<WhereshouldIsharethedeals>Where should I share the deals?
+			</WhereshouldIsharethedeals>
+
+			<HowdoIcontactyourCustomerSupportteam>How do I contact your Customer
+				Support team?
+			</HowdoIcontactyourCustomerSupportteam>
+
+			<WhatdoesPendingProfitmean>What does Pending Profit mean?
+			</WhatdoesPendingProfitmean>
+
+			<WhatdoesConfirmedProfitmean>What does Confirmed Profit mean?
+			</WhatdoesConfirmedProfitmean>
+
+			<HowlongafterasalewillIactuallygetmyProfit>How long after a sale will
+				I actually get my Profit?
+			</HowlongafterasalewillIactuallygetmyProfit>
+
+			<WheredoIseemyProfitearnings>Where do I see my Profit earnings?
+			</WheredoIseemyProfitearnings>
+
+			<WhatisyourpaymentpolicyArethereanyrestrictionsorcharges>What is your
+				payment policy? Are there any restrictions or charges?
+			</WhatisyourpaymentpolicyArethereanyrestrictionsorcharges>
+
+			<HowdoIrequestpaymentofmyprofit>How do I request payment of my
+				profit?
+			</HowdoIrequestpaymentofmyprofit>
+
+			<HowlongdoesittaketoreceiveCashbackviaNEFT>How long does it take to
+				receive Cashback via NEFT?
+			</HowlongdoesittaketoreceiveCashbackviaNEFT>
+
+			<HowtomakeprofitlinksatEarnKaro>How to make profit links at EarnKaro?
+			</HowtomakeprofitlinksatEarnKaro>
+
+			<HowtoEarnmoneyfromprofitlinks>How to Earn money from profit links?
+			</HowtoEarnmoneyfromprofitlinks>
+
+			<WhyismyProfitnottracking>Why is my Profit not tracking?
+			</WhyismyProfitnottracking>
+
+		</FAQ_13>
+
+		<MakeProfitLink_14>
+
+			<NondomainURL_1>https://www.google.com</NondomainURL_1>
+			<NondomainURL_2>https://www.amazon.comm</NondomainURL_2>
+			<NondomainURL_3>https://www.flipkart.co</NondomainURL_3>
+			<NondomainURL_4>https://www.cashkaro.com</NondomainURL_4>
+			<NondomainURL_5>https://www.myntraa.com</NondomainURL_5>
+			<NondomainURL_6>http://fkrt.ito/3IH~b2NNNN</NondomainURL_6>
+			<NondomainURL_7>https://amzn.tio/2FphiBB</NondomainURL_7>
+			<NondomainURL_8>https://www.45amazon.in</NondomainURL_8>
+			<NondomainURL_9>https://amazon.org</NondomainURL_9>
+
+			<ErrorData_1>55https://..com</ErrorData_1>
+			<ErrorData_2>http//:..cmo</ErrorData_2>
+			<ErrorData_3>127.0.0.1</ErrorData_3>
+			<ErrorData_4>hptts://amazon.com</ErrorData_4>
+			<ErrorData_5>https://www. amazon .in</ErrorData_5>
+			<ErrorData_6>https:// www.amazon.in</ErrorData_6>
+			<ErrorData_7>https://www.udemy.in???</ErrorData_7>
+			<ErrorData_8>amazon.in</ErrorData_8>
+			<ErrorData_9>http://www..com</ErrorData_9>
+
+
+			<!-- NOTE : URL shorten is Amazon URL - at the end of the seller page 
+				- URL should get Cashkaro tags with valid exit clicks = This is the validation 
+				URL : https://www.amazon.in/Morphy-Richards-Daisy-1000-Watt-White/dp/B01N6IJG0F/ref=lp_15910078031_1_1?s=kitchen&ie=UTF8&qid=1555075413&sr=1-1 
+				Used shorten domains :bit.do,bit.ly,tiny.cc,rebrand.ly,j.mp,amzn.to,clnk.in,tinyurl.com,urlzs.com,fkrt.it -->
+
+			<shortenDomainURLs_8>bit.do,bit.ly,tiny.cc,rebrand.ly,j.mp,amzn.to,clnk.in,tinyurl.com,urlzs.com,fkrt.it
+			</shortenDomainURLs_8>
+
+			<!-- VALID DOMAIN SHORTEN URLS :https://www.amazon.in/Morphy-Richards-Daisy-1000-Watt-White/dp/B01N6IJG0F/ref=lp_15910078031_1_1?s=kitchen&ie=UTF8&qid=1555075413&sr=1-1 -->
+			<shortenBitly_Amazon>https://amzn.to/2URwlgY</shortenBitly_Amazon>
+			<shortentinycc_Amazon>http://tiny.cc/m2534y</shortentinycc_Amazon>
+			<shortenbitdo_Amazon>http://bit.do/ePaAL</shortenbitdo_Amazon>
+			<shortenreBrandly_Amazon>https://rebrand.ly/7kssjn
+			</shortenreBrandly_Amazon>
+			<shortenurlZs_Amazon>https://urlzs.com/cZrA</shortenurlZs_Amazon>
+			<shortentinyURL_Amazon>https://preview.tinyurl.com/y2nlff9s
+			</shortentinyURL_Amazon>
+
+			<!-- INVALID DOMAIN URLS : https://store.google.com/product/pixel_3 -->
+			<shortenbitly_google_Invalid>http://bit.ly/2UCExCF
+			</shortenbitly_google_Invalid>
+			<shortentinycc_google_Invalid>http://tiny.cc/e3634y
+			</shortentinycc_google_Invalid>
+			<shortenbitdo_google_Invalid>http://bit.do/ePaCA
+			</shortenbitdo_google_Invalid>
+			<shortenrebrandly_google_Invalid>https://rebrand.ly/e8e42
+			</shortenrebrandly_google_Invalid>
+			<shortenurlZs_google_Invalid>https://urlzs.com/TkAL
+			</shortenurlZs_google_Invalid>
+			<shortentinyURL_google_Invalid>http://tinyurl.com/y6wpyvl7
+			</shortentinyURL_google_Invalid>
+			<shortenDummyURLs_11>appium.dummyData</shortenDummyURLs_11>
+
+			<!-- Following test data is for Inactive Store - Invalid Store URL Validation -->
+			<makeProfitLinkStoreID_InActiveStore>10003121
+			</makeProfitLinkStoreID_InActiveStore>
+			<makeProfitLinkStoreName_InActiveStore>AppiumMakeLinkStore
+			</makeProfitLinkStoreName_InActiveStore>
+			<makeProfitLinkStoreName_InActiveStore_DomainURL>appium.io
+			</makeProfitLinkStoreName_InActiveStore_DomainURL>
+			<makeProfitLinkStoreName_InActiveStore_SharedURL>http://appium.io/downloads.html
+			</makeProfitLinkStoreName_InActiveStore_SharedURL>
+
+		</MakeProfitLink_14>
+
+		<AffiliateNetwork_15>
+
+			<AmazonNew>Amazon New</AmazonNew>
+			<FlipKart>Flipkart</FlipKart>
+
+		</AffiliateNetwork_15>
+
+		<Language_16>
+
+			<englishFileName>English</englishFileName>
+			<tamilFileName>Tamil</tamilFileName>
+			<hindiFileName>Hindi</hindiFileName>
+			<malayalamFileName>Malayalam</malayalamFileName>
+			<teluguFileName>Telugu</teluguFileName>
+			<kannadaFileName>Kannada</kannadaFileName>
+			<bengaliFileName>Bengali</bengaliFileName>
+			<marathiFileName>Marathi</marathiFileName>
+			<gujaratiFileName>Gujarati</gujaratiFileName>
+
+			<common_label>common_label</common_label>
+			<common_validate_label>common_validate_label</common_validate_label>
+			<main_menu>main_menu</main_menu>
+			<home>home</home>
+			<store_category>store_category</store_category>
+			<prduct_category>prduct_category</prduct_category>
+			<sub_menu_list>sub_menu_list</sub_menu_list>
+			<store>store</store>
+			<product_details>product_details</product_details>
+			<product_card>product_card</product_card>
+			<store_card>store_card</store_card>
+			<share_counts>share_counts</share_counts>
+			<search>search</search>
+			<search_result_all>search_result_all</search_result_all>
+			<search_result_store>search_result_store</search_result_store>
+			<login>login</login>
+			<profile_right_menu>profile_right_menu</profile_right_menu>
+			<referandearn>referandearn</referandearn>
+			<referral_network>referral_network</referral_network>
+			<contact_us>contact_us</contact_us>
+			<faq>faq</faq>
+			<success_stories>success_stories</success_stories>
+			<how_it_works>how_it_works</how_it_works>
+			<testimonial>testimonial</testimonial>
+			<testimonial_write>testimonial_write</testimonial_write>
+			<personal_details>personal_details</personal_details>
+			<change_password>change_password</change_password>
+			<my_account_earnings>my_account_earnings</my_account_earnings>
+			<total_cashback_earned>total_cashback_earned</total_cashback_earned>
+			<earnings_info>earnings_info</earnings_info>
+			<earnings_referral>earnings_referral</earnings_referral>
+			<earnings_cashback>earnings_cashback</earnings_cashback>
+			<my_earnings>my_earnings</my_earnings>
+			<on_boarding>on_boarding</on_boarding>
+			<sign_in>sign_in</sign_in>
+			<join_free>join_free</join_free>
+			<forgot_password>forgot_password</forgot_password>
+			<user_profile>user_profile</user_profile>
+			<payment_settings>payment_settings</payment_settings>
+			<giftcard_wallet_inputfield>giftcard_wallet_inputfield
+			</giftcard_wallet_inputfield>
+			<payment_request>payment_request</payment_request>
+			<giftcard_wallet_request_payment>giftcard_wallet_request_payment
+			</giftcard_wallet_request_payment>
+			<signup_otp_verification>signup_otp_verification
+			</signup_otp_verification>
+			<otp_mobile_number>otp_mobile_number</otp_mobile_number>
+			<otp_verification>otp_verification</otp_verification>
+			<payment>payment</payment>
+			<payment_popup>payment_popup</payment_popup>
+			<prduct_specifications>prduct_specifications</prduct_specifications>
+			<prduct_filter>prduct_filter</prduct_filter>
+			<terms_conditions>terms_conditions</terms_conditions>
+			<make_profit_links>make_profit_links</make_profit_links>
+			<my_shared_activities>my_shared_activities</my_shared_activities>
+			<profit_partners_details>profit_partners_details
+			</profit_partners_details>
+			<profit_partners_list>profit_partners_list</profit_partners_list>
+
+			<faqAnswer1_1>வருமானம் பெறத் தொடங்க, ஏர்ன்கரோ ஹோம் பேஜில்.
+				"துவங்கவும்" பட்டனை க்ளிக் செய்யவும். உங்கள் இமெயில் ஐடி, லாக்இன்
+				செய்ய உங்கள் இமெயில் ஐடி, மொபைல் எண் மற்றும் ஒரு பாஸ்வேர்டை செட்
+				செய்யவும். நீங்கள் இலாக் இன் ஆன பின், ஷேர் செய்யத் தகுந்த 100,000+
+				டீல்களை
+			</faqAnswer1_1>
+
+			<faqAnswer1_2>நீங்கள் காண்பீர்கள். பிரதி விற்பனைக்கான உங்கள் லாபம்,
+				தள்ளுபடி அல்லது விலை அடிப்படையில் ஒரு டீலை தேர்ந்தெடுத்து இந்த
+				லின்க்கை (உங்கள் பிராஃபிட் லின்க்) அதை வாங்கும் ஆர்வம் உள்ள
+				எவருக்கேனும் ஷேர் செய்யவும். ஃபேஸ்புக், இன்ஸ்டாகிராம் அல்லது சமூக
+				வலைதளத்தில் உள்ள நபர்களுக்கு
+			</faqAnswer1_2>
+
+			<faqAnswer1_3>எத்தனை பிராஃபிட் லின்க்குகள் முடியுமோ அத்தனையை நீங்கள்
+				ஷேர் செய்யலாம். எப்போதெல்லாம் யாராவது உங்கள் "பிராஃபிட் லின்க்"
+				மூலமாக ஷாப் செய்கிறார்கர்ள அப்போதெல்லாம் நீங்கள் "பிராஃபிட்"
+				சம்பாதிப்பீர்கள், அது உங்களுக்கு "ரியல் கேஷ்" ஆக இருக்கும். இந்த
+				கேஷ் உங்கள் ஏர்ன்கரோ அக்கவுண்டில்
+			</faqAnswer1_3>
+
+			<faqAnswer1_4>சேர்க்கப்பட்டு அதை நீங்கள் ஒரு சில க்ளிக்குகள் மூலம்
+				உங்கள் வங்கிக் கணக்குக்க டிரான்ஸ்ஃபர் செய்து கொள்ளலாம்.
+			</faqAnswer1_4>
+
+			<faqAnswer3>உங்கள் லின்க் மூலமாக நடைபெறும் ஒவ்வொரு விற்பனைக்கும்
+				நீங்கள் லாபம் சம்பாதிப்பீர்கள். உங்கள் பிராஃபிட் உறுதி
+				செய்யப்பட்டதும், நீங்கள் அதன் பேமெண்ட்டுக்காக வேண்டுகோள் செய்ய
+				இயலும். ஒவ்வொரு பிராஃபிட் லின்க் மூலமாகவும் நடைபெறும் விற்பனையை
+				நீங்கள் டிராக் செய்ய முடியும். முதலில், ஒரு விற்பனை நடந்து 5 நிமிடம்
+				முதல் 48 மணி நேரத்திற்குள், பிராஃபிட் உங்கள் அக்கவுண்டில் பெண்டிங்
+				ஸ்டேட்டஸ்-ல் சேர்க்கப்பட்டிருப்பதை பார்ப்பீர்கள். அதன் பின்,
+				புராடக்ட்டின் ரீடெய்லரை பொறுத்து உங்கள் பிராஃபிட் உறுதி
+				செய்யப்படுவதற்கு 30 முதல் 90 நாட்களுக்குள் உள்ள காலம் ஆகும். உறுதி
+				செய்யப்பட்ட பிராஃபிட் "பேமெண்டுகள்" பிரிவுக்கு செல்வதன் மூலம் உங்கள்
+				வங்கிக் கணக்கிற்கு மாற்றப்படலாம்.
+			</faqAnswer3>
+
+			<faqAnswer9>இது ரீடெய்லரைப் பொறுத்து மாறும். நீங்கள் ஒரு
+				பரிவர்த்தனையை முடித்ததும், எங்களிடமிருந்து 5 நிமிடங்கள் முதல் 48
+				மணிநேரத்திற்குள் உங்களுக்கு வரவேண்டிய பிராஃபிட் எவ்வளவு என்பது
+				குறித்து ஒரு இமெயில் பெறுவீர்கள். இது தான் “பென்டிங்” பிராஃபிட்
+				எனப்படும். உங்கள் புராடக்ட்(கள்)-ன் ரிடர்ன் செய்யும் காலம்
+				முடிந்தாலோ அல்லது டிராவல் உறுதி செய்யப்பட்டவுடன் ரீடெய்லர் உங்கள்
+				விற்பனையை எங்களிடம் உறுதி செய்வார். உங்கள் பிராஃபிட்டின் ஸ்டேடஸ்
+				தன்னியக்கமாக ”உறுதிசெய்யப்பட்டது” என்கிற நிலைக்கு மாறிவிடும்.
+			</faqAnswer9>
+
+			<faqAnswer10>நீங்கள் லாக்இன் செய்தவுடன், நீங்கள் உங்கள் திரையின்
+				மேற்புற வலது மூலையில் ”புரொஃபைல்” ஐகானைப் பார்ப்பீர்கள். உங்கள்
+				பிராஃபிட் வருமானங்களை பார்க்க "புரொஃபைல்" சென்று பிறகு "பிராஃபிட்" ஐ
+				திறக்கவும்.
+			</faqAnswer10>
+
+			<faqAnswer11>எங்கள் பேமெண்ட் கொள்கை விபரம்: உறுதிசெய்யப்பட்ட
+				பிராஃபிட் மட்டுமே செலுத்தப்பட இயலும். பென்டிங் பிராஃபிட்
+				”உறுதிசெய்யப்பட்டது” என்று அப்டேட் ஆகும் வரை செலுத்தப்பட இயலாது.
+				உங்கள் அக்கவுண்டில் நீங்கள் எப்போதெல்லாம் உறுதிசெய்யப்பட்ட பிராஃபிட்
+				கொண்டிருக்கிறீர்களோ, நாங்கள் நெஃப்ட் மூலமாக (இலவசமாக) உங்கள்
+				(இந்திய) வங்கி கணக்கிற்கு பணத்தைச் செலுத்த இயலும். உங்கள் வங்கியைப்
+				பொறுத்து, இந்த பேமெண்ட் உங்கள் அக்கவுண்டிற்கு நெஃப்ட் வழியாக 4-5
+				வேலை நாட்களுக்குள் வந்தடையும்.
+			</faqAnswer11>
+
+			<faqAnswer12>நீங்கள் "புரொஃபைல்" மெனுவில் உள்ள "என் பேமெண்ட்கள்"
+				எனும் பிரிவுக்குச் செல்லலாம். உங்களிடம் உறுதிசெய்யப்பட்ட பிராஃபிட்
+				வருமானங்கள் இருந்தால் மட்டுமே நீங்கள் ஒரு பேமெண்ட்டுக்கான வேண்டுகோளை
+				செய்ய இயலும்.
+			</faqAnswer12>
+
+			<faqAnswer14>நீங்கள் ஏர்ன்கரோவுக்குள் லாக்இன் ஆனதும், உங்கள் மொபைல்
+				திரையில்ன் கீழ்ப்புற இடது ஓரத்தில் "மேக் லின்க்"ஐ க்ளிக் செய்யவும்.
+				இப்போது, ஒரு பிராஃபிட் லின்க்கை உருவாக்க, காலி பாக்ஸில் எந்த
+				பார்ட்டர் இ-காமர்ஸ் தளத்திலிருந்தாவது (விபரங்களுக்கு "பார்ட்னர்களை
+				காணவும்"ஐ க்ளிக் செய்யுவும்) ஒரு லின்க்கை பேஸ்ட் செய்யவும். இப்போது
+				கீழே உள்ள ”மேக் பிராஃபிட் லின்க்”-ஐ க்ளிக் செய்யவும். நீங்கள்
+				பிராஃபிட் லின்க்கை காப்பி செய்து அதை வாட்ஸ்அப், ஃபேஸ்புக்
+				முதலானவற்றில் உள்ள உங்கள் நண்பர்களுக்கு ஷேர் செய்யலாம்.
+			</faqAnswer14>
+
+			<personalDetails_1>தனிப்பட்ட
+			</personalDetails_1>
+
+			<personalDetails_2>விபரங்கள்
+			</personalDetails_2>
+
+			<changePwd_1>பாஸ்வேர்ட்
+			</changePwd_1>
+
+			<changePwd_2>மாற்றவும்
+			</changePwd_2>
+
+			<paymentSettings_1>பேமண்ட்
+			</paymentSettings_1>
+
+			<paymentSettings_2>செட்டிங்குகள்
+			</paymentSettings_2>
+
+			<makeProfitLinksStep1_1>EarnKaroவை திறக்கவும். அதில்
+			</makeProfitLinksStep1_1>
+
+			<makeProfitLinksStep1_2>மேக் லிங்க்ஸ்
+			</makeProfitLinksStep1_2>
+
+			<makeProfitLinksStep1_3>பிரிவில் இந்த காப்பி செய்த இணைப்பை பேஸ்ட்
+				(ஒட்டவும்) செய்யவும்.
+			</makeProfitLinksStep1_3>
+
+			<makeProfitLinksStep2_1>மேக் பிராஃபிட் பிரிவு
+			</makeProfitLinksStep2_1>
+
+			<makeProfitLinksStep2_2>பட்டனை மீது க்ளிக் செய்து, உங்களது பிராஃபிட்
+				லிங்கை காப்பி செய்யவும்
+			</makeProfitLinksStep2_2>
+
+			<makeProfitLinksStep3_1>வாட்ஸ்அப், ஃபேஸ்புக் போன்றவற்றில் ஷாப்பிங்
+				செய்யக் கூடியவர்களுடன், உங்களது
+			</makeProfitLinksStep3_1>
+
+			<makeProfitLinksStep3_2>பிராஃபிட் லிங்க
+			</makeProfitLinksStep3_2>
+
+			<makeProfitLinksStep3_3>பகிரவும்.
+			</makeProfitLinksStep3_3>
+
+		</Language_16>
+
+		<Notification_17>
+
+			<BigText>Big Text</BigText>
+			<SubText>Sub Text</SubText>
+			<NotificationTitle>Notification Title</NotificationTitle>
+			<BigImage>https://askopinion.com/images/Files/UserFiles/posting/lrg/2017/8/cash-karo-nbn.png
+			</BigImage>
+			<NotificationBody>Notification Body</NotificationBody>
+			<RedirectionalURL>earnkaro://stores/ajio</RedirectionalURL>
+
+			<WithNotificationTemplate_HighPriority>APPIUM AUTOMATION TEST HP
+				(APP)
+			</WithNotificationTemplate_HighPriority>
+			<WithNotificationTemplate_HighPriority_WithoutRedirectionURLBigImageLLargeIcon>
+				APPIUM AUTOMATION TEST WITHOUT LARGE ICON REDIRECT URL IMAGE URL
+				(APP)
+			</WithNotificationTemplate_HighPriority_WithoutRedirectionURLBigImageLLargeIcon>
+			<WithNotificationTemplate_HighPriority_WithoutRedirectURL>APPIUM
+				AUTOMATION TEST WITHOUT REDIRECT URL (APP)
+			</WithNotificationTemplate_HighPriority_WithoutRedirectURL>
+			<WithNotificationTemplate_HighPriority_RedirectionURLAtDifferentPage>
+				APPIUM AUTOMATION TEST REDIRECT IN DIFFERENT PAGE (APP)
+			</WithNotificationTemplate_HighPriority_RedirectionURLAtDifferentPage>
+
+			<WithNotificationTemplate_NormalPriority>APPIUM AUTOMATION TEST NP
+				(APP)
+			</WithNotificationTemplate_NormalPriority>
+			<HighPriorityNotificaitonTemplateID>257
+			</HighPriorityNotificaitonTemplateID>
+			<NormalPriorityNotificationTemplateID>258
+			</NormalPriorityNotificationTemplateID>
+			<HighPriorityWithoutRedirectURLTemplateID>259
+			</HighPriorityWithoutRedirectURLTemplateID>
+
+
+
+			<DropDownValue_UserName>username</DropDownValue_UserName>
+
+		</Notification_17>
+
+		<ReferAndEarn_18>
+			<ReferAndEarnWhatsAppShareText>I have earned over Rs 5000 using
+				EarnKaro.com. Try it, it’s a ZERO investment App to earn money from
+				home
+			</ReferAndEarnWhatsAppShareText>
+
+			<!-- <PalyStoreRefererLink>https://play.google.com/store/apps/details?id=com.earnkaro&referrer</PalyStoreRefererLink> -->
+			<WhatsAppContact>Mallik</WhatsAppContact>
+		</ReferAndEarn_18>
+
+
+
+
+
+
+
+	</Framework>
+</testdata>

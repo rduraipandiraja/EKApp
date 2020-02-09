@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="daily_build" name="Create Runnable Jar for Project PPS_ATM_POM_SauceLabs_Framework with Jar-in-Jar Loader">
+	
+    <!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+    <!--ANT 1.7 is required-->
+    <!--define folder properties-->
+	
+    <property name="basedir" value="." />
+    <property name="lib" value="${basedir}/dependencies" />
+    <property name="src" value="${basedir}/src" />
+    <property name="bin" value="${basedir}/bin" />
+	<property name="build" value="${basedir}/build"/>
+	<property name="jar.dir" value="${basedir}/project_runnable_jar"/>
+	<property name="jar.name" value="PPS_APP_ATM_Jar"/>
+	
+	<!-- ====== For Code quality checks ====  -->
+	<property name="ws.codequality" value="${basedir}/code_qualitychecks"/>
+	<property name="spotbugs.dir" value="${ws.codequality}/spotbugs"/>
+	<property name="logs.dir" value="logs"/>
+	<property name="pmd.dir" value="${ws.codequality}/pmd"/>
+	
+    <!-- ====== Set the classpath ====  -->
+    <path id="classpath">
+        <pathelement location="${bin}" />
+        <fileset dir="${lib}">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+	
+    <!-- Delete directories  -->
+    <target name="delete-dir">
+        <delete dir="${bin}" />
+    	<delete dir="${jar.dir}" />
+    	<echo> /* Deleted the Directories */ </echo>
+    </target>
+	
+    <!-- Creating directories  depends="create"-->
+    <target name="create" depends="delete-dir">
+        <mkdir dir="${bin}" />
+    	<mkdir dir="${jar.dir}" />
+    	<echo> /* Created Required Directory */ </echo>
+    </target>
+	
+    <!-- Compile the java code from ${src} into ${bin} -->
+    <target name="compile" depends="create">
+        <javac srcdir="${src}" classpathref="classpath" includeAntRuntime="No" destdir="${bin}" memoryinitialsize="256m"  memorymaximumsize="1024m"/>
+        <echo> /* Compiled Directory Classes */ </echo>
+    </target>
+	
+    <target name="create_run_jar" depends="compile">
+    	
+        <jar destfile="${jar.dir}/${jar.name}.jar">
+        	
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="main.java.com.app.ck.base.Base"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ animal-sniffer-annotations-1.14.jar ant-1.9.6.jar ant-launcher-1.9.6.jar asm-6.0.jar aspectjweaver-1.9.1.jar bsh-2.0b6 bson-3.3.0.jar byte-buddy-1.8.3.jar cglib-3.2.6.jar checker-compat-qual-2.0.0.jar commons-beanutils-1.9.2.jar commons-codec-1.10.jar commons-collections-3.2.2.jar commons-digester-1.8.1.jar commons-exec-1.3.jar commons-io-2.6.jar commons-lang3-3.7.jar commons-logging-1.2.jar commons-validator-1.6.jar error_prone_annotations-2.1.3.jar extentreports-4.0.6.jar freemarker-2.3.23.jar groovy-2.4.6.jar groovy-json-2.4.6.jar groovy-xml-2.4.6.jar gson-2.8.4.jar guava-23.6-jre.jar hamcrest-core-1.3.jar hamcrest-library-1.3.jar httpclient-4.5.5.jar httpcore-4.4.6.jar httpmime-4.5.2.jar j2objc-annotations-1.1.jar java-client-6.1.0.jar jcommander-1.72.jar json-path-3.0.0.jar json-simple-1.1.1.jar jsr305-1.3.9.jar mongodb-driver-3.3.0.jar mongodb-driver-core-3.3.0.jar okhttp-3.12.1.jar okio-1.15.0.jar opencv-3.2.0-1.jar rest-assured-3.0.0.jar rest-assured-common-3.0.0.jar selenium-api-3.12.0.jar selenium-chrome-driver-3.12.0.jar selenium-edge-driver-3.12.0.jar selenium-firefox-driver-3.12.0.jar selenium-ie-driver-3.12.0.jar selenium-java-3.12.0.jar selenium-opera-driver-3.12.0.jar selenium-remote-driver-3.12.0.jar selenium-safari-driver-3.12.0.jar selenium-support-3.12.0.jar spring-beans-5.0.5.RELEASE.jar spring-context-5.0.5.RELEASE.jar spring-core-5.0.5.RELEASE.jar spring-expression-5.0.5.RELEASE.jar spring-jcl-5.0.5.RELEASE.jar tagsoup-1.2.1.jar testng-6.14.3.jar xml-path-3.0.0.jar "/>
+            </manifest>
+        	
+           	<!--<zipfileset src="jar-in-jar-loader.zip"/>-->
+        	<fileset dir="${basedir}/bin"/>
+        	<!-- <zipfileset dir="${basedir}/testng_testsuite_xml" includes="**/*.xml" /> -->
+        	<!--<zipfileset dir="${basedir}/testng_testsuite_weekend_execution_xml" includes="**/*.xml" />-->
+        	
+        </jar>
+        <echo> /* PPS_ATM_Jar creation completed */ </echo>
+    </target>
+	
+	
+	<!-- ############################################## Code Quality Checks  ###########################################################-->
+		
+
+	<taskdef resource="edu/umd/cs/findbugs/anttask/tasks.properties" classpath="${spotbugs.dir}/lib/spotbugs-ant.jar" />
+    <property name="spotbugs.home" value="${spotbugs.dir}" />
+
+    <target name="spotbugs" depends="create_run_jar">
+	  <echo> Started Spot bugs target..  </echo>		
+      <mkdir dir="${logs.dir}"/>
+      <spotbugs home="${spotbugs.home}" output="xml" outputFile="${logs.dir}/bcel-sb.xml" timeout="9900000">
+            <sourcePath path="${src}"/>
+            <fileset dir="${src}">
+                <include name="**/*.java"/>
+            </fileset>
+           <class location="${jar.dir}/${jar.name}.jar"/>
+      </spotbugs>
+    	<echo> /* Spot bugs static code analysis completed successfully..:) */ </echo>
+    </target>
+	
+    <!-- PMD -->
+    <path id="pmd2.classpath">
+        <pathelement location="${bin}" />
+        <fileset dir="${pmd.dir}/lib">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+	
+    <!-- Daily build target -->
+    <target name="daily_build" depends="spotbugs">
+    	<echo> Daily build job successfully completed with Jar creation , Spot bugs and PMD code analysis .. :) </echo>
+    </target>
+	
+</project>

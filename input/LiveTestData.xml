@@ -1,0 +1,34 @@
+<testdata>
+	<Framework>
+
+		<Signin_TestData_0>
+
+			<NormalEmail>dev@pouringpounds.com</NormalEmail>
+			<Password>ppounds</Password>
+
+		</Signin_TestData_0>
+
+		<Signin_TestDataForFB_1>
+
+			<FacebookEmail>dev@pouringpounds.com</FacebookEmail>
+			<Password>4NRqdDdJ$yLQFc</Password>
+
+		</Signin_TestDataForFB_1>
+
+		<Signin_TestDataForAdmin_2>
+
+			<UserName>testautomation</UserName>
+			<Password>Exd37h74419o4</Password>
+
+		</Signin_TestDataForAdmin_2>
+
+		<Store_TestData_3>
+
+			<StoreName>PPS ATM CASHBACK STORE TWO</StoreName>
+			<StoreDescription></StoreDescription>
+			<StoreUrl>amazon.in</StoreUrl>
+
+		</Store_TestData_3>
+
+	</Framework>
+</testdata>
